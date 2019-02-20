@@ -1,0 +1,90 @@
+body{
+    background-color: #4F6D7A;
+  }
+   /* ======== THAT'S IT ====== */
+   
+  
+   /* =================  THIS IS WHERE THE NAVIGATIOIN SECTION START ================== */
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: #9893DA;
+      overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      float: left;
+      color: #f3f3f7;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+      background-color: #BBBDF6;
+      color: #625F63;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+      background-color: rgb(8, 8, 8);
+      color: white;
+  }
+   /* =================  THIS IS WHERE THE NAVIGATION SECTION ENDS ================== */
+
+ /* ========= THIS IS THE START OF THE BODY SECTION FOR THE "ABOUT PAGE" ======== */
+
+ .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 120%;
+    height: 120%;
+    margin-right: 10%;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 120%;
+    left: 0;
+    right: 0;
+    background-color: #4F6D7A;
+    overflow: hidden;
+    width: 120%;
+    height:0;
+    transition: .5s ease;
+    margin-right: 10%;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 120%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text_1{
+    color: #BBBDF6;
+    font-size: 20px;
+    text-align: center;
+  }
+ 
+ /* ========= THIS IS THE END OF THE BODY SECTION FOR THE "ABOUT PAGE" ======== */
+
+ 

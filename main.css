@@ -1,0 +1,97 @@
+/* =========THIS ONE BELOW IS MY FAVOURITE BECAUSE IT MAKES IT ALL SMOOTH!====== */
+html{
+    scroll-behavior: smooth;
+  }
+   /* ======== THAT'S IT ====== */
+   
+  
+   /* =================  THIS IS WHERE THE NAVIGATIOIN SECTION START ================== */
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: #9893DA;
+      overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      float: left;
+      color: #f3f3f7;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+      background-color: #BBBDF6;
+      color: #625F63;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+      background-color: rgb(8, 8, 8);
+      color: white;
+  }
+   /* =================  THIS IS WHERE THE NAVIGATION SECTION ENDS ================== */
+  
+  
+   /* =================  THIS IS WHERE THE HEAD SECTION START ============ */
+  
+   body {
+      height: 100%;
+      /* background-color: cadetblue;
+       */
+      background-image: url("https://cdn5.vectorstock.com/i/1000x1000/29/54/blue-programming-line-tile-pattern-vector-12242954.jpg");
+  
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+  
+      body {
+      font-family: 'Architects Daughter';
+      font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 90px;
+    font-family: "Edwardian Script ITC", sans-serif;
+    color: #9893DA;
+  }
+    
+    .bg-image {
+      /* The image used */
+    
+      /* Add the blur effect */
+      filter: blur(20px);
+      -webkit-filter: blur(2px);
+    
+      /* Full height */
+      height: 100%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /* Position text in the middle of the page/image */
+    .bg-text {
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+      color: #9893DA;
+      font-weight: bold;
+      border: 3px solid #9893DA;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+    }
+     /* =================  THIS IS WHERE THE HEAD SECTION END ============ */
